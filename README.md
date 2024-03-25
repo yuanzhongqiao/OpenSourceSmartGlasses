@@ -1,76 +1,59 @@
-# Open Source Smart Glasses
-
-### Update 2023 - checkout the [SmartGlassesManager](https://github.com/TeamOpenSmartGlasses/SmartGlassesManager) software framework for the fastest way to build smart glasses apps on any pair of smart glasses.
-
-![OSSG Latest CAD Render](res/ossg_v1_screenshot.jpg)
-
-Smart glasses with display, microphones, wireless phone connection, prescription lenses, hours of battery life, and LED indicator. These glasses connect directly to the [Wearable Intelligence System](https://github.com/emexlabs/WearableIntelligenceSystem), so they host a suite of apps like live language translation, contextual search engine, intelligent assistant, web search, and more.
-
-We're building open source smart glasses designed to be:  
-1. All day wearable 
-2. Immediately useful 
-3. Extendable for makers, startups, and everyone else.  
-
-This repo holds mechanical, electrical, and software files for the open source smartglasses developed by Team Open Smart Glasses.
-
-This project is built by members of TeamOpenSmartGlasses and the [H20 Smart Glasses Community](https://smartglasses.community/), a community of engineers, researchers, makers, designers, entrepreneurs, and anyone else driven to build technology that enhances user's intelligence in daily life.  
-
-## Videos
-
-[![Open Source Smart Glasses Prototype Project/Progress Video](res/thumbnail_ossg_play.jpg)](https://www.youtube.com/watch?v=PwmGNWkpKW8 "Open Source Smart Glasses")
-
-## Images
-
-![User Wearing OSSG v1.0](res/ossg_v1p0_cayden_pierce.jpg)
-![OSSG Latest CAD Render](res/ossg_v1_screenshot.jpg)
-![OSSG v0p5 Board Design Render](res/v0p5_board_render.png)
-![OSSG v0.5 Main Schematic](res/v0p5_schematic_main.jpg)
-![OSSG v0.5 Power Schematic](res/v0p5_schematic_power.jpg)
-![OSSG Prescription Lenses](res/OpenSourceSmartGlasses_prescription_lenses_CaydenPierce.jpg)
-![OSSG 3D Printing DIY](res/3d_printing_OpenSourceSmartGlasses_TeamOpenSmartGlasses_MattTheMaker_CaydenPierce.jpg)
-## License
-
-All work contained here is licensed under the MIT License.
-
-## Overview
-
-See the wiki, this README, and the discord for an overview of the project vision and roadmap. More information to be added soon. Here's [the discord](https://discord.gg/5ukNvkEAqT).
-
-### OSSG - Open Source Smart Glasses
-
-1. All day wearability. There is a difference between something that you could wear and something that you will wear. We are laser focused on building a form factor that users (us) will enjoy wearing from the start in terms of comfort, shape, size, weight, and aesthetics.
-2. Immediately useful. There is a difference between will wear and want to wear. From the beginning, we are designing and building hardware with use cases in mind.
-3. Extendable for makers, startups, researchers, and everyone else. Our Open Source approach is aimed at helping everyone use smart glasses. We believe the most valuable use cases will only arise when smart glasses are accessable to be built, worn, and hacked, so that's what we're making.
-
-#### Plan
-
-1. We want full fledged smart glasses with all-day wearability, display, camera, microphone, sensor suite, batteries, wireless communications, speakers, etc. that is low power, low heat, low profile (stylish), and provides a host of novel and valuable use cases, that is as open and extendable as possible.
-2. Trying to do that all at once is too big of a task. Faster, better progress is made if one starts with something that works and then focuses on quick iterationn cycles for building something useful that we can wear all day, everday. We start with something all day wearable, and then we iterate from there. 
-3. Instead of just focusing on hardware and hoping that the use case presents itself, our design starts from the use cases that we want, and we design from there. 
-4. Build the first version of our glasses that meets the use case but stays technically simpler so we can never stray from our core value of all day wearability.
-5. Once this early version is working and we all wear it all day, move on to more complicated things - like an applications processor and display.
-
-## Team Open Smartglasses
-
-Team Open Smartglasses is a group of engineers, researchers, makers, and designers from around the world joining forces to build Open Source Smartglasses. We're a highly technical team of people who have all built custom wearables on our own in the past, coming together to build the world's best smart glasses, Open Source.
-
-## Community
-
-If you're interested in developing Open Source Smart Glasses, feel free to to join the [Discord server](https://discord.gg/5ukNvkEAqT).
-
-## Contributors / Collaborators
-
-The system is fully Open Source and built by this growing list of contributors:
-
-- [Cayden Pierce](https://caydenpierce.com) - [Emex Labs](https://emexwearables.com)
-- [Alex Israelov](https://alexisraelov.com)
-- Paul Hamilton
-- [Adrian Papineau](https://www.parallelinnov.com/about-us/)
-- [Nicholas Gray](https://github.com/Thecactusman0)
-- Matthew Jansen
-- Paul M
-- Your Name Here, [join us](https://discord.gg/5ukNvkEAqT)!
-
-## How Do I Buy A Pair?
-
-We reccomend building your own. There is no way to purchase a pair. Please don't reach out to the developers to buy a pair.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源智能眼镜</font></font></h1><a id="user-content-open-source-smart-glasses" class="anchor" aria-label="永久链接：开源智能眼镜" href="#open-source-smart-glasses"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023 更新 - 查看</font></font><a href="https://github.com/TeamOpenSmartGlasses/SmartGlassesManager"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SmartGlassesManager</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件框架，以最快的方式在任何一副智能眼镜上构建智能眼镜应用程序。</font></font></h3><a id="user-content-update-2023---checkout-the-smartglassesmanager-software-framework-for-the-fastest-way-to-build-smart-glasses-apps-on-any-pair-of-smart-glasses" class="anchor" aria-label="永久链接：2023 年更新 - 查看 SmartGlassesManager 软件框架，以最快的方式在任何一副智能眼镜上构建智能眼镜应用程序。" href="#update-2023---checkout-the-smartglassesmanager-software-framework-for-the-fastest-way-to-build-smart-glasses-apps-on-any-pair-of-smart-glasses"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/blob/main/res/ossg_v1_screenshot.jpg"><img src="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/raw/main/res/ossg_v1_screenshot.jpg" alt="OSSG 最新 CAD 渲染图" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">智能眼镜，配有显示屏、麦克风、无线电话连接、处方镜片、电池续航时间和 LED 指示灯。这些眼镜直接连接到</font></font><a href="https://github.com/emexlabs/WearableIntelligenceSystem"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可穿戴智能系统</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此它们可以托管一系列应用程序，例如实时语言翻译、上下文搜索引擎、智能助手、网络搜索等。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们正在构建开源智能眼镜，旨在：</font></font></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全天佩戴</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立即有用</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于创客、初创公司和其他所有人来说都是可扩展的。</font></font></li>
+</ol>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该存储库包含由 Team Open Smart Glasses 开发的开源智能眼镜的机械、电气和软件文件。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://smartglasses.community/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目由 TeamOpenSmartGlasses 和H20 智能眼镜社区</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的成员构建</font><font style="vertical-align: inherit;">，该社区由工程师、研究人员、制造商、设计师、企业家和其他致力于构建增强用户日常生活智能的技术的人员组成。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频</font></font></h2><a id="user-content-videos" class="anchor" aria-label="永久链接：视频" href="#videos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://www.youtube.com/watch?v=PwmGNWkpKW8" title="开源智能眼镜" rel="nofollow"><img src="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/raw/main/res/thumbnail_ossg_play.jpg" alt="开源智能眼镜原型项目/进度视频" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图片</font></font></h2><a id="user-content-images" class="anchor" aria-label="永久链接：图片" href="#images"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/blob/main/res/ossg_v1p0_cayden_pierce.jpg"><img src="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/raw/main/res/ossg_v1p0_cayden_pierce.jpg" alt="用户佩戴OSSG v1.0" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/blob/main/res/ossg_v1_screenshot.jpg"><img src="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/raw/main/res/ossg_v1_screenshot.jpg" alt="OSSG 最新 CAD 渲染图" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/blob/main/res/v0p5_board_render.png"><img src="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/raw/main/res/v0p5_board_render.png" alt="OSSG v0p5 电路板设计渲染" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/blob/main/res/v0p5_schematic_main.jpg"><img src="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/raw/main/res/v0p5_schematic_main.jpg" alt="OSSG v0.5 主要原理图" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/blob/main/res/v0p5_schematic_power.jpg"><img src="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/raw/main/res/v0p5_schematic_power.jpg" alt="OSSG v0.5 电源原理图" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/blob/main/res/OpenSourceSmartGlasses_prescription_lenses_CaydenPierce.jpg"><img src="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/raw/main/res/OpenSourceSmartGlasses_prescription_lenses_CaydenPierce.jpg" alt="OSSG 处方镜片" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/blob/main/res/3d_printing_OpenSourceSmartGlasses_TeamOpenSmartGlasses_MattTheMaker_CaydenPierce.jpg"><img src="/TeamOpenSmartGlasses/OpenSourceSmartGlasses/raw/main/res/3d_printing_OpenSourceSmartGlasses_TeamOpenSmartGlasses_MattTheMaker_CaydenPierce.jpg" alt="OSSG 3D打印DIY" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里包含的所有作品均已获得 MIT 许可证的许可。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概述</font></font></h2><a id="user-content-overview" class="anchor" aria-label="永久链接：概述" href="#overview"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅 wiki、本自述文件和 Discord，了解项目愿景和路线图的概述。更多信息即将添加。这就是</font></font><a href="https://discord.gg/5ukNvkEAqT" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不和谐之</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OSSG - 开源智能眼镜</font></font></h3><a id="user-content-ossg---open-source-smart-glasses" class="anchor" aria-label="永久链接：OSSG - 开源智能眼镜" href="#ossg---open-source-smart-glasses"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全天穿着。你可以穿的东西和你会穿的东西之间是有区别的。我们专注于打造一种让用户（我们）从一开始就在舒适度、形状、尺寸、重量和美观方面享受佩戴的外形。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立即有用。愿意穿和想穿是有区别的。从一开始，我们就在设计和构建硬件时考虑到用例。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于创客、初创公司、研究人员和其他所有人来说都是可扩展的。我们的开源方法旨在帮助每个人使用智能眼镜。我们相信，只有当智能眼镜可以被构建、佩戴和破解时，最有价值的用例才会出现，所以这就是我们正在做的事情。</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计划</font></font></h4><a id="user-content-plan" class="anchor" aria-label="永久链接：计划" href="#plan"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们想要成熟的智能眼镜，具有全天佩戴、显示屏、摄像头、麦克风、传感器套件、电池、无线通信、扬声器等，低功耗、低热量、低调（时尚），并提供一系列新颖的功能。和有价值的用例，即尽可能开放和可扩展。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">试图一次性完成这一切是一项艰巨的任务。如果我们从可行的东西开始，然后专注于快速迭代周期，打&ZeroWidthSpace;&ZeroWidthSpace;造出我们可以整天佩戴的有用的东西，就会取得更快、更好的进展。我们从全天可穿戴的产品开始，然后从那里开始迭代。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的设计不是仅仅关注硬件并希望用例自行呈现，而是从我们想要的用例开始，然后从那里开始设计。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打造我们眼镜的第一个版本，既满足使用场景，又在技术上保持简单，这样我们就永远不会偏离全天佩戴的核心价值。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一旦这个早期版本开始工作并且我们都整天佩戴它，就可以转向更复杂的东西 - 例如应用程序处理器和显示器。</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">团队开放智能眼镜</font></font></h2><a id="user-content-team-open-smartglasses" class="anchor" aria-label="永久链接：团队开放智能眼镜" href="#team-open-smartglasses"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放智能眼镜团队由来自世界各地的工程师、研究人员、制造商和设计师组成，他们齐心协力打造开源智能眼镜。我们是一支技术精湛的团队，过去都曾自行构建过定制可穿戴设备，现在我们齐心协力打造世界上最好的开源智能眼镜。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></h2><a id="user-content-community" class="anchor" aria-label="永久链接：社区" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您对开发开源智能眼镜感兴趣，请随时加入</font></font><a href="https://discord.gg/5ukNvkEAqT" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discord 服务器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者/合作者</font></font></h2><a id="user-content-contributors--collaborators" class="anchor" aria-label="永久链接：贡献者/合作者" href="#contributors--collaborators"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该系统是完全开源的，由越来越多的贡献者构建：</font></font></p>
+<ul dir="auto">
+<li><a href="https://caydenpierce.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凯登·皮尔斯</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- </font></font><a href="https://emexwearables.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Emex 实验室</font></font></a></li>
+<li><a href="https://alexisraelov.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">亚历克斯·以色列洛夫</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保罗·汉密尔顿</font></font></li>
+<li><a href="https://www.parallelinnov.com/about-us/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿德里安·帕皮诺</font></font></a></li>
+<li><a href="https://github.com/Thecactusman0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尼古拉斯·格雷</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">马修詹森</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保罗·M</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里有你的名字，</font></font><a href="https://discord.gg/5ukNvkEAqT" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入我们吧</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我如何购买一对？</font></font></h2><a id="user-content-how-do-i-buy-a-pair" class="anchor" aria-label="永久链接：如何购买一双？" href="#how-do-i-buy-a-pair"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们建议您自己构建。没有办法购买一对。请不要联系开发商购买一对。</font></font></p>
+</article></div>
